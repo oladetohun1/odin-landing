@@ -1,0 +1,148 @@
+*,::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    /* padding: 0 10rem; */
+}
+
+a{
+    text-decoration: none;
+    color: white
+
+}
+
+header{
+    background-color:#1f2937 ;
+    color: white;
+    padding: 0 10rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 10px;
+    text-decoration: none;
+
+}
+
+div.hero-section{
+    display: flex;
+    padding: 5rem 0;
+    justify-content: space-between;
+}
+
+.hero-text{
+    width: 34%;
+}
+
+.hero-placeholder{
+    width: 45%;
+    background-color: grey;
+}
+
+.hero-placeholder p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.main-1{
+    padding-bottom: 5rem;
+}
+.main-1 h1{
+ text-align: center;
+ margin: 2rem 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+
+.group-box{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.blue-box{
+    border:2px solid rgb(71, 122, 241);;
+    margin: auto;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+.container>p{
+    text-align: center;
+}
+
+.main-2{
+    background-color: #e5e7eb;
+    padding: 3rem 10rem 3rem 10rem;
+}
+
+.main-2 h1{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.quote h2{
+    font-weight: 400;
+}
+.quote h3{
+    display: flex;
+    justify-content: end;
+}
+.call-container{
+    background-color: white;
+    display: flex;
+    padding:5rem 3rem 5rem 3rem;
+    width: 100%;
+    justify-content: center;
+    color: white;
+
+}
+.call{
+    background-color: rgb(71, 122, 241);
+     padding:3rem 5rem 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.button{
+    background-color:rgb(71, 122, 241);
+    padding: 6px 22px 6px 22px;
+    border-radius: 5px;
+    color: white;
+
+}
+.call-button{
+    margin-top: 10px;
+}
+
+.button-border{
+    border: 1px solid white;
+}
+
+footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding:1rem 0px;
+}
